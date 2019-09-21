@@ -1,0 +1,34 @@
+{
+  "orders": [
+    {
+      "id": 2567,
+      "items": [
+        {
+          "id": 1,
+          "name": "Pink Gerberas and Roses",
+          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRjrf6ZsiLs4mr1wu7hB11Ao1ygyKsZKnFJGIVrO5d75IeiZLJX4-nMEcNKQNvajY459f6ry0moNHPr3lS_lm03qCamAwf5eRKRM5Fm9FfdJNICOq1lmGxI&usqp=CAc",
+          "quantity": 1,
+          "height": 75,
+          "width": 60,
+          "price": 34
+        }
+      ],
+      "delivery": {
+        "date": "2019-05-13",
+        "timeFrom": "2019-05-13 09:00:00",
+        "timeTo": "2019-05-13 16:00:00"
+      },
+      "cardMessage": "Wish you happy birthday mom",
+      "shipping": {
+        "name": "Sheeber Shamsudheen",
+        "mobile": "+965 50155835",
+        "address": "Abdulla salem, Block 4, Street 11, House number 300, Opposite British"
+      },
+      "paymentMethod": 1,
+      "note": "Call me once you reach in front of my house",
+      "subTotal": 34,
+      "deliveryCharge": 0,
+      "total": 34
+    }
+  ]
+}

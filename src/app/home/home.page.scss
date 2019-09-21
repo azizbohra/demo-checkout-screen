@@ -1,1 +1,285 @@
+ion-title {
+    text-align: center;
+}
 
+.block-1 {
+    padding: 20px 20px;
+    background-color: #ffffff;
+
+    .title {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 0;
+    }
+
+    .wrapper {
+        border: 1px solid #d8d8d8;
+        border-radius: 3px;
+
+        .list {
+            .item {
+                display: flex;
+                padding: 10px;
+                border-bottom: 1px solid #d8d8d8;
+
+                .image {
+                    img {
+                        border-radius: 3px;
+                        width: 100px;
+                        height: auto;
+                    }
+                }
+
+                .info {
+                    flex-grow: 1;
+                    padding-left: 10px;
+                    font-size: 16px;
+
+                    .quantity {
+                        color: var(--ion-color-step-600);
+                        margin-top: 5px;
+                    }
+
+                    .dimension {
+                        display: flex;
+                        justify-content: space-between;
+                        color: var(--ion-color-step-600);
+                        margin-top: 5px;
+                    }
+
+                    .price {
+                        font-weight: 600;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+
+        .delivery-details {
+            padding: 10px;
+            font-size: 16px;
+
+            .delivery {
+                margin-top: 15px;
+
+                .title {
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-top: 0;
+                    margin-bottom: 5px;
+                }
+
+                .date-time {
+                    color: var(--ion-color-step-600);
+                }
+            }
+
+            .card-message {
+                margin-top: 15px;
+
+                .title {
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-top: 0;
+                    margin-bottom: 5px;
+                }
+
+                .message {
+                    color: var(--ion-color-step-600);
+                }
+            }
+        }
+    }
+}
+
+.block-2 {
+    margin-top: 20px;
+    padding: 20px 20px;
+    background-color: #ffffff;
+
+    .title {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 0;
+    }
+
+    .wrapper {
+        border: 1px solid #d8d8d8;
+        border-radius: 3px;
+        padding: 10px;
+        font-size: 16px;
+
+        .delivery-details {
+            .title {
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 0;
+                margin-bottom: 5px;
+                color: var(--ion-color-primary);
+            }
+        }
+
+        .recipient-details {
+            margin-top: 15px;
+
+            .title {
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 0;
+                margin-bottom: 5px;
+                color: var(--ion-color-primary);
+            }
+        }
+
+    }
+}
+
+.block-3 {
+    margin-top: 20px;
+    background-color: #ffffff;
+
+    .payment {
+        padding: 20px 20px;
+
+        .title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 0;
+        }
+
+        .sub-title {
+            font-size: 16px;
+            margin-bottom: 7px;
+        }
+
+        .wrapper {
+            border: 1px solid #d8d8d8;
+            border-radius: 3px;
+            font-size: 16px;
+
+            .list {
+                .item {
+                    display: flex;
+                    align-items: center;
+                    padding: 15px 15px;
+                    border-bottom: 1px solid #d8d8d8;
+                    color: var(--ion-color-step-600);
+
+                    .icon {
+                        height: 30px;
+                    }
+
+                    .name {
+                        flex-grow: 1;
+                        padding: 0px 20px;
+                    }
+
+                    .check {
+                        width: 30px;
+                        height: 30px;
+                        text-align: right;
+
+                        ion-icon {
+                            font-size: 28px;
+                        }
+                    }
+                }
+
+                .item:last-child {
+                    border: 0;
+                }
+
+                .item.selected {
+                    color: var(--ion-color-primary);
+                }
+            }
+        }
+    }
+
+    .note {
+        padding: 20px 20px;
+
+        .title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 0;
+        }
+
+        .wrapper {
+            border: 1px solid #d8d8d8;
+            border-radius: 3px;
+            font-size: 16px;
+            padding: 15px;
+
+            ion-textarea {
+                margin: 0;
+                --padding-top: 0;
+                --padding-bottom: 0;
+                --padding-start: 0;
+                --padding-end: 0;
+            }
+        }
+    }
+
+    .accounts {
+        padding: 0px 20px 20px 20px;
+        font-size: 16px;
+        display: flex;
+
+        .col-1 {
+            flex-grow: 1;
+
+            .title:first-child {
+                margin-top: 0px;
+            }
+
+            .title {
+                margin-top: 7px;
+            }
+
+            .title:last-child {
+                font-weight: 600;
+            }
+        }
+
+        .col-2 {
+            min-width: 70px;
+
+            .currency:first-child {
+                margin-top: 0px;
+            }
+
+            .currency {
+                margin-top: 7px;
+            }
+
+            .currency:last-child {
+                font-weight: 600;
+            }
+        }
+
+        .col-3 {
+            text-align: right;
+
+            .amount:first-child {
+                margin-top: 0px;
+            }
+
+            .amount {
+                margin-top: 7px;
+            }
+
+            .amount:last-child {
+                font-weight: 600;
+            }
+        }
+    }
+
+    .place-order {
+        padding: 0px 20px;
+
+        ion-button {
+            text-transform: inherit;
+        }
+    }
+}
